@@ -21,39 +21,16 @@ const DashboardPage = () => {
       <h3 style={globalStyles.navigation}>Application / Dashboard</h3>
 
       <div className="row">
+        {Data.tablePage.items.map(item =>
+          <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-15 ">
+            <InfoBox Icon={Face}
+                    color={pink600}
+                    title={item.name}
+                    value={item.votes}
+            />
+          </div>
+        )}
 
-        <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-15 ">
-          <InfoBox Icon={Face}
-                   color={pink600}
-                   title="Participant1"
-                   value="1500"
-          />
-        </div>
-
-
-        <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-15 ">
-          <InfoBox Icon={Face}
-                   color={cyan600}
-                   title="participant2"
-                   value="4231"
-          />
-        </div>
-
-        <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-15 ">
-          <InfoBox Icon={Face}
-                   color={purple600}
-                   title="Participant3"
-                   value="460"
-          />
-        </div>
-
-        <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 m-b-15 ">
-          <InfoBox Icon={Face}
-                   color={orange600}
-                   title="Participant4"
-                   value="248"
-          />
-        </div>
       </div>
 
       <div className="row">
