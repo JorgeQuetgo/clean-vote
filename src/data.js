@@ -16,10 +16,10 @@ const data = {
   ],
   tablePage: {
     items: [
-      {id: 1, name: 'Partcipant1', partido: '$50.00', category: 'Democrata'},
-      {id: 2, name: 'Participant2', partido: '$150.00', category: 'democrata'},
-      {id: 3, name: 'Participant3', partido: '$250.00', category: 'Democarata'},
-      {id: 4, name: 'Participant4', partido: '$70.00', category: 'Republicano'},      
+      {id: 1, name: 'Partcipant1', partido: '$50.00', category: 'Democrata', votes: '1500'},
+      {id: 2, name: 'Participant2', partido: '$150.00', category: 'democrata', votes: '4231'},
+      {id: 3, name: 'Participant3', partido: '$250.00', category: 'Democarata', votes: '460'},
+      {id: 4, name: 'Participant4', partido: '$70.00', category: 'Republicano', votes: '248'},      
     ]
   },
   dashBoardPage: {
